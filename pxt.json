@@ -1,0 +1,28 @@
+{
+    "name": "pacman",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.0.4",
+        "animation": "*",
+        "color-coded-tilemap": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "mouse": "*",
+        "keyboard": "*",
+        "jacdac-game": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
